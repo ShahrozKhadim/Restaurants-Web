@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: floralwhite;
+}
+li, a, button{
+    font-family: 'Hind Siliguri';
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: #ff4c00;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 90px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    margin-right: 10px;
+    display: inline-block;
+    padding: 40px 10px;
+}
+.nav-links li a{
+    transition:  all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: #0088a9;
+}
+.paragraph{
+    font-family: 'Hind Siliguri';
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.w3-info {
+    background-color: #D9EEE1;
+    border-left: none;
+    padding: 32px;
+    margin: 24px;
+    /* margin-left: -32px; */
+    /* margin-right: -32px; */
+}
+
+.p-info {
+    font-family: 'Hind Siliguri';
+    font-weight: lighter;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.into-p{
+    font-size: 25px;
+    text-align: center;
+    text-justify: inter-word;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.intro {
+    font-size: 30px;
+}
+.p-panel {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.p-btn-offers{
+    font-size: 18px;padding-left:25px;padding-right:25px;
+    font-family: 'Source Sans Pro', sans-serif;margin-top:6px;
+}
+
+@media(min-width: 768px) {
+    .parent{
+        position: relative;
+        padding: 50px;
+        display: flex;
+    }
+
+}
+.child{
+    border: 5px solid floralwhite ;
+    font-family: 'Hind Siliguri';
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+#img-1{
+    height: 400px;
+    width: 400px;
+}
+.section2-p{
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 20%;
+}
+#section2-paragraph{
+    font-weight: lighter;
+}
+.section2{
+    height: 300px;
+    width: 400px;
+}
+.section1, .section2{
+    margin: 30px;
+}
+h2{
+    font-family: 'Hind Siliguri';
+    color: black;
+    text-align: center;
+}
+
+#h2ID{
+    font-family: "butlerregular", sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.p-offers{
+    font-family: "butlerregular", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.container{
+    padding-left: 70px;
+    max-width: 900px;
+    margin: auto;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 225px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.description{
+    padding: 15px;
+    text-align: center;
+}
+
+
+#leftBox{
+    padding-top: 10px;
+    float: left;
+    width: 25%;
+    background: red;
+    height: 200px;
+}
+#rightbox{
+    float:right;
+    background:blue;
+    width:25%;
+    height:280px;
+}
+
+@media(min-width: 768px) {
+    .parent1{
+        margin-left: 70px;
+        padding: 0;
+        display: flex;
+    }
+
+}
+
+.child1{
+    border: 1px solid greenyellow;
+    font-family: 'Hind Siliguri';
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.section22{text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    padding-top: 20%;
+}
+.section11 img {
+    width: 580px;
+    height: 400px;
+    padding: 0;
+}
+#parent1Id{
+    padding-top: 50px;
+}
+.video-section{
+    padding: 0px;
+    margin: 10px;
+}
+#videoId{
+    font-family: "butlerregular", sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.btn-more {
+    display: inline-block;
+    margin: 20px 0 0;
+    padding: 10px 0;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: .1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e4678a;
+}
+#table-row-color:nth-child(even) {background-color: #f2f2f2;}
+.bTop
+{
+    font-family: "butlerregular", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    width: 850px;
+    height: 80px;
+    background-color: floralwhite;
+}
+.bLeft
+{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: floralwhite;
+    text-justify: inter-word;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.middle
+{
+    width: 100px;
+    height: 50px;
+    background-color: floralwhite;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.bTop-map
+{
+    font-family: "butlerregular", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    width: 650px;
+    height: 50px;
+    background-color: floralwhite;
+}
+.bLeft-map, .middle-text
+{
+    width: 500px;
+    height: 300px;
+    font-size: 15px;
+    text-align: center;
+    background-color: floralwhite;
+}
+.bLeft-text{
+    width: 20%;
+    text-align: center;
+    background-color: navajowhite;
+}
+.middle-text{
+    width: 100%;
+    background-color: papayawhip;
+}
+.middle-text, .bLeft-text{
+    height: 40px;
+    font-size: 20px;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-f{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
+.wrapper{
+    margin-top: 50px;
+    background: #81c644;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+#wrapper-id1, #wrapper-id2, #wrapper-id3{
+    text-align: justify;
+}
+
+.team .team_member h3{
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+
